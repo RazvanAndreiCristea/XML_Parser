@@ -1,0 +1,109 @@
+{
+  "livrari": [
+    {
+      "id": "1",
+      "tip_livrare": "domiciliu",
+      "destinatar": {
+        "nume": "Popescu Ion",
+        "telefon": "0755123456",
+        "email": "ion.popescu21@gmail.com",
+        "adresa": "Ploiesti, Strada Florilor nr.1"
+      },
+      "expeditor": "Georgescu Alexandru",
+      "colet": {
+        "dimensiuni": {
+          "lungime": "60",
+          "latime": "50",
+          "inaltime": "35",
+          "unitate_masura": "cm"
+        },
+        "greutate": {
+          "unitate_masura": "kg",
+          "valoare": "2.5"
+        },
+        "valoare": {
+          "unitate_masura": "RON",
+          "valoare": "100"
+        },
+        "destinatie": "Ploiesti, Strada Florilor nr.1",
+        "ambalaj": {
+          "tip": "cutie"
+        },
+        "continut": "Documente"
+      },
+      "data_programata": "2024-04-01",
+      "stare_livrare": "in tranzit",
+      "locatie_curenta": "Bucuresti, Sector 2, Bulevardul Dacia nr.5"
+    },
+    {
+      "id": "2",
+      "tip_livrare": "easybox",
+      "destinatar": {
+        "nume": "Nume Destinatar 2",
+        "telefon": "0755234567",
+        "email": "destinatar2@example.com",
+        "adresa": "Cluj-Napoca, Bulevardul Avram Iancu nr.6"
+      },
+      "expeditor": "Andreescu Marian",
+      "colet": {
+        "dimensiuni": {
+          "lungime": "40",
+          "latime": "30",
+          "inaltime": "25",
+          "unitate_masura": "cm"
+        },
+        "greutate": {
+          "unitate_masura": "kg",
+          "valoare": "5"
+        },
+        "valoare": {
+          "unitate_masura": "RON",
+          "valoare": "85"
+        },
+        "destinatie": "Cluj-Napoca, Strada Nufarului nr.8",
+        "ambalaj": {
+          "tip": "plic"
+        },
+        "continut": "Obiecte fragile"
+      },
+      "data_programata": "2024-04-02",
+      "stare_livrare": "in decurs de procesare",
+      "locatie_curenta": "Depozit central, Bucuresti"
+    },
+    {
+      "id": "3",
+      "tip_livrare": "internationala",
+      "destinatar": {
+        "nume": "Alain Delon",
+        "telefon": "0755345678",
+        "email": "destinatar3@example.com",
+        "adresa": "Paris, France, Rue de Exemple 4"
+      },
+      "expeditor": "Ionescu Vlad",
+      "colet": {
+        "dimensiuni": {
+          "lungime": "50",
+          "latime": "40",
+          "inaltime": "30",
+          "unitate_masura": "cm"
+        },
+        "greutate": {
+          "unitate_masura": "kg",
+          "valoare": "10"
+        },
+        "valoare": {
+          "unitate_masura": "USD",
+          "valoare": "300"
+        },
+        "destinatie": "Paris, France, Rue de la Tour",
+        "ambalaj": {
+          "tip": "cutie"
+        },
+        "continut": "Haine, accesorii"
+      },
+      "data_programata": "2024-04-03",
+      "stare_livrare": "in decurs de ambalare",
+      "locatie_curenta": "Depozit central, Timisoara"
+    }
+  ]
+}

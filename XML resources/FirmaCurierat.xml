@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE livrari SYSTEM "FirmaCurierat.dtd">
+<?xml-stylesheet type="text/xsl" href="FirmaCurierat.xsl"?>
+
+<livrari>
+
+    <livrare id="1" tip_livrare="Domiciliu">
+
+        <destinatar>
+
+            <nume>Popescu Ion</nume>
+            <telefon>0755123456</telefon>
+            <email>ion.popescu21@gmail.com</email>
+            <adresa>Ploiesti, Strada Florilor nr.1</adresa>
+
+        </destinatar>
+
+        <expeditor>Georgescu Alexandru</expeditor>
+
+        <colet>
+
+            <dimensiuni lungime="60" latime="50" inaltime="35" unitate_masura="cm"/>
+            <greutate unitate_masura="kg">2.5</greutate>
+            <valoare unitate_masura="RON">100</valoare>
+            <destinatie>Ploiesti, Strada Florilor nr.1</destinatie>
+            <ambalaj tip="cutie"/>
+            <continut>Documente</continut>
+
+        </colet>
+
+        <data_programata>2024-04-01</data_programata>
+
+        <stare_livrare>In tranzit</stare_livrare>
+
+        <locatie_curenta>Bucuresti, Sector 2, Bulevardul Dacia nr.5</locatie_curenta>
+
+    </livrare>
+
+    <livrare id="2" tip_livrare="Easybox">
+
+        <destinatar>
+
+            <nume>Nume Destinatar 2</nume>
+            <telefon>0755234567</telefon>
+            <email>destinatar2@example.com</email>
+            <adresa>Cluj-Napoca, Bulevardul Avram Iancu nr.6</adresa>
+
+        </destinatar>
+
+        <expeditor>Andreescu Marian</expeditor>
+
+        <colet>
+
+            <dimensiuni lungime="40" latime="30" inaltime="25" unitate_masura="cm"/>
+            <greutate unitate_masura="kg">5</greutate>
+            <valoare unitate_masura="RON">85</valoare>
+            <destinatie>Cluj-Napoca, Strada Nufarului nr.8</destinatie>
+            <ambalaj tip="plic"/>
+            <continut>Obiecte fragile</continut>
+
+        </colet>
+
+        <data_programata>2024-04-02</data_programata>
+
+        <stare_livrare>in decurs de procesare</stare_livrare>
+
+        <locatie_curenta>Depozit central, Bucuresti</locatie_curenta>
+
+    </livrare>
+
+    <livrare id="3" tip_livrare="Internationala">
+
+        <destinatar>
+
+            <nume>Alain Delon</nume>
+            <telefon>0755345678</telefon>
+            <email>destinatar3@example.com</email>
+            <adresa>Paris, France, Rue de Exemple 4</adresa>
+
+        </destinatar>
+
+        <expeditor>Ionescu Vlad</expeditor>
+
+        <colet>
+
+            <dimensiuni lungime="50" latime="40" inaltime="30" unitate_masura="cm"/>
+            <greutate unitate_masura="kg">10</greutate>
+            <valoare unitate_masura="USD">300</valoare>
+            <destinatie>Paris, France, Rue de la Tour</destinatie>
+            <ambalaj tip="cutie"/>
+            <continut>Haine, accesorii</continut>
+
+        </colet>
+
+        <data_programata>2024-04-03</data_programata>
+
+        <stare_livrare>in decurs de ambalare</stare_livrare>
+
+        <locatie_curenta>Depozit central, Timisoara</locatie_curenta>
+
+    </livrare>
+
+</livrari>

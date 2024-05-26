@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="livrari">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="livrare" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="destinatar">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nume">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:maxLength value="50"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="telefon">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="\d{10}"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="email" type="xs:string"/>
+                                        <xs:element name="adresa" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="expeditor" type="xs:string"/>
+                            <xs:element name="colet">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="dimensiuni">
+                                            <xs:complexType>
+                                                <xs:attribute name="lungime" type="xs:decimal" use="required"/>
+                                                <xs:attribute name="latime" type="xs:decimal" use="required"/>
+                                                <xs:attribute name="inaltime" type="xs:decimal" use="required"/>
+                                                <xs:attribute name="unitate_masura" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="greutate">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:decimal">
+                                                        <xs:attribute name="unitate_masura" type="xs:string" use="required"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="valoare">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:decimal">
+                                                        <xs:attribute name="unitate_masura" type="xs:string" use="required"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                            </xs:element>
+                                        <xs:element name="destinatie" type="xs:string"/>
+                                        <xs:element name="ambalaj">
+                                            <xs:complexType>
+                                                <xs:attribute name="tip" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="continut" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="data_programata" type="xs:date"/>
+                            <xs:element name="stare_livrare" type="xs:string"/>
+                            <xs:element name="locatie_curenta" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
+                        <xs:attribute name="tip_livrare" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

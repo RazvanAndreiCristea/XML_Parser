@@ -1,0 +1,13 @@
+D:\Programare\C#\FirmaCurierat\bin\Debug\FirmaCurierat.exe.config
+D:\Programare\C#\FirmaCurierat\bin\Debug\FirmaCurierat.exe
+D:\Programare\C#\FirmaCurierat\bin\Debug\FirmaCurierat.pdb
+D:\Programare\C#\FirmaCurierat\obj\Debug\FirmaCurierat.csproj.AssemblyReference.cache
+D:\Programare\C#\FirmaCurierat\obj\Debug\FirmaCurierat.MainForm.resources
+D:\Programare\C#\FirmaCurierat\obj\Debug\FirmaCurierat.Properties.Resources.resources
+D:\Programare\C#\FirmaCurierat\obj\Debug\FirmaCurierat.csproj.GenerateResource.cache
+D:\Programare\C#\FirmaCurierat\obj\Debug\FirmaCurierat.csproj.CoreCompileInputs.cache
+D:\Programare\C#\FirmaCurierat\obj\Debug\FirmaCurierat.exe
+D:\Programare\C#\FirmaCurierat\obj\Debug\FirmaCurierat.pdb
+D:\Programare\C#\FirmaCurierat\bin\Debug\Newtonsoft.Json.dll
+D:\Programare\C#\FirmaCurierat\bin\Debug\Newtonsoft.Json.xml
+D:\Programare\C#\FirmaCurierat\obj\Debug\FirmaCur.78D61706.Up2Date

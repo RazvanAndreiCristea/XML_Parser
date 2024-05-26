@@ -1,0 +1,27 @@
+<!ELEMENT livrari (livrare+)>
+<!ELEMENT livrare (destinatar,expeditor,colet,data_programata,stare_livrare,locatie_curenta)>
+<!ATTLIST livrare id NMTOKEN #REQUIRED>
+<!ATTLIST livrare tip_livrare NMTOKEN #REQUIRED>
+<!ELEMENT destinatar (nume,telefon,email,adresa)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT adresa (#PCDATA)>
+<!ELEMENT expeditor (#PCDATA)>
+<!ELEMENT colet (dimensiuni,greutate,valoare,destinatie,ambalaj,continut)>
+<!ELEMENT dimensiuni EMPTY>
+<!ATTLIST dimensiuni lungime NMTOKEN #REQUIRED>
+<!ATTLIST dimensiuni latime NMTOKEN #REQUIRED>
+<!ATTLIST dimensiuni inaltime NMTOKEN #REQUIRED>
+<!ATTLIST dimensiuni unitate_masura NMTOKEN #REQUIRED>
+<!ELEMENT greutate (#PCDATA)>
+<!ATTLIST greutate unitate_masura NMTOKEN #REQUIRED>
+<!ELEMENT valoare (#PCDATA)>
+<!ATTLIST valoare unitate_masura NMTOKEN #REQUIRED>
+<!ELEMENT destinatie (#PCDATA)>
+<!ELEMENT ambalaj EMPTY>
+<!ATTLIST ambalaj tip NMTOKEN #REQUIRED>
+<!ELEMENT continut (#PCDATA)>
+<!ELEMENT data_programata (#PCDATA)>
+<!ELEMENT stare_livrare (#PCDATA)>
+<!ELEMENT locatie_curenta (#PCDATA)>
